@@ -18,6 +18,6 @@ setTimeout(function() {
   process.stdout.write('data from stdin:\n---\n');
   process.stdout.write(from_stdin);
   process.stdout.write('\n---\n');
-  process.stderr.write("This goes to stderr")
+  process.stderr.write("This goes to stderr\n")
   process.exit(Math.round(Math.random() * 50))
 }, (Math.random()* 1000) + 4000)
