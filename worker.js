@@ -20,4 +20,4 @@ setTimeout(function() {
   process.stdout.write('\n---\n');
   process.stderr.write("This goes to stderr\n")
   process.exit(Math.round(Math.random() * 50))
-}, (Math.random()* 1000) + 4000)
+}, (Math.random()* 100) + 100)
